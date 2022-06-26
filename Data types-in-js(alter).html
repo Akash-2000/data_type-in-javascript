@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Task 1 alternative </title>
+    </head>
+    <body>
+        <h1> Identifying data types </h1>
+        <p id = "result"></p>
+        <script>
+            const data_types = [1,1.1,'1,1',true,null,undefined,NaN];
+            let answer = " "
+            for (let i = 0; i < data_types.length; i++) {
+                answer += typeof(data_types[i]) + "<br>" ;
+            }
+            document.getElementById("result").innerHTML = answer;
+        </script>
+    </body>
+</html>
